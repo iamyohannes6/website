@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yohannes Goitom - Creative Director, Brand Designer & Graphic Designer. Turning imagination into experiences people love.">
+    <meta property="og:title" content="Yohannes Goitom - Creative Portfolio">
+    <meta property="og:description" content="Creative Director and Designer specializing in brand design and graphic design">
+    <meta property="og:type" content="website">
+    
+    <title>Yohannes Goitom - Creative Portfolio</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Swiper.js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark-theme">
+    <nav class="floating-nav">
+        <div class="nav-container">
+            <div class="logo">YG</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-background"></div>
+            <div class="hero-content">
+                <div class="profile-container">
+                    <img src="assets/images/profile.jpg" alt="Yohannes Goitom" class="profile-image">
+                </div>
+                <h1>Yohannes Goitom</h1>
+                <p>Graphic Designer & Brand Identity Specialist</p>
+                <div class="hero-cta">
+                    <a href="https://t.me/yohannes_design" class="contact-btn" target="_blank">Get in Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="portfolio-gallery">
+            <h2>My Work</h2>
+            
+            <!-- Graphic Design Section -->
+            <div class="work-section">
+                <h3>Graphic Design</h3>
+                <div class="swiper graphic-design-swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Images will be added here -->
+                        <div class="swiper-slide placeholder-slide">
+                            <div class="placeholder-content">
+                                <p>Add your graphic design work here</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+
+            <!-- Branding Section -->
+            <div class="work-section">
+                <h3>Branding</h3>
+                <div class="swiper branding-swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Images will be added here -->
+                        <div class="swiper-slide placeholder-slide">
+                            <div class="placeholder-content">
+                                <p>Add your branding work here</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+
+            <!-- Poster Design Section -->
+            <div class="work-section">
+                <h3>Poster Design</h3>
+                <div class="swiper poster-design-swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Images will be added here -->
+                        <div class="swiper-slide placeholder-slide">
+                            <div class="placeholder-content">
+                                <p>Add your poster designs here</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <h2>Skills & Tools</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="tools-grid">
+                        <div class="tool-item">
+                            <img src="assets/icons/tools/Affinity.png" alt="Affinity Designer">
+                            <span>Affinity Designer</span>
+                        </div>
+                        <div class="tool-item">
+                            <img src="assets/icons/tools/Pr Pro.png" alt="Adobe Premiere Pro">
+                            <span>Premiere Pro</span>
+                        </div>
+                        <div class="tool-item">
+                            <img src="assets/icons/tools/adobe-illustrator.svg" alt="Adobe Illustrator">
+                            <span>Adobe Illustrator</span>
+                        </div>
+                        <div class="tool-item">
+                            <img src="assets/icons/tools/adobe-photoshop.svg" alt="Adobe Photoshop">
+                            <span>Adobe Photoshop</span>
+                        </div>
+                        <div class="tool-item">
+                            <img src="assets/icons/tools/figma.svg" alt="Figma">
+                            <span>Figma</span>
+                        </div>
+                        <div class="tool-item">
+                            <img src="assets/icons/tools/adobe-after-effects.svg" alt="Adobe After Effects">
+                            <span>Adobe After Effects</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <section id="contact" class="contact-section">
+                <h2>Get in Touch</h2>
+                <div class="contact-container">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                    <div class="social-links">
+                        <a href="https://et.linkedin.com/in/yohannes-goitom-1b29022ab" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/icons/social/linkedin.svg" alt="LinkedIn">
+                        </a>
+                        <a href="https://www.pinterest.com/iamyohannes6/" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/icons/social/pinterest.svg" alt="Pinterest">
+                        </a>
+                        <a href="https://www.instagram.com/iamyohannes6/" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/icons/social/instagram.svg" alt="Instagram">
+                        </a>
+                        <a href="https://t.me/iamyohannes" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/icons/social/telegram.svg" alt="Telegram">
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Yohannes Goitom. All rights reserved. | <a href="privacy-policy.html">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

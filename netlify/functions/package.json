@@ -1,0 +1,9 @@
+{
+  "name": "netlify-functions",
+  "version": "1.0.0",
+  "description": "Netlify functions for portfolio contact form",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "node-fetch": "^2.6.1"
+  }
+}
